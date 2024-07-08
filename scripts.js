@@ -50,7 +50,7 @@ function getWeather() {
             const weatherElement = document.getElementById("weather");
             weatherElement.textContent = "Error fetching weather data, location not found!";
             const errorImage = document.createElement("img");
-            errorImage.src = 'icons/location.png';
+            errorImage.src = 'https://michael-ghossein.github.io/Task1/icons/location.png';
             errorImage.alt = "Error image";
             errorImage.style.width = "512px";
             errorImage.style.height = "auto";
