@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(icons/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Headtitle {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    justify-content: left;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#weather {
+    margin-top: 20px;
+}
+
+#welcome-message {
+    display: inline;
+    background-color: wheat;
+    padding: 60px;
+    margin-left: 80px;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.result {
+    text-align: center;
+}
+
+.weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.weather-text {
+    margin-top: 5px;  /* Adjust the margin as needed */
+    text-align: center;
+}
+
+
+.weather-icon {
+    width: 512px;
+    height: auto;
+}
+
+.icon {
+    width: 150px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
